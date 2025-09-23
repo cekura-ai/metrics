@@ -10,6 +10,11 @@ This repository contains AI-powered metrics and analysis tools for evaluating cu
 - **Conversation Quality Assessment**: Comprehensive analysis of customer service interactions
 - **Automated QA**: AI-powered quality assurance for customer service calls
 - **Transcript Processing**: Advanced analysis of conversation transcripts
+- **Relevancy Analysis**: Evaluate the relevance and appropriateness of agent responses
+
+## 📋 Available Metrics
+
+For a complete list of available metrics and detailed documentation, visit our [Pre-defined Metrics documentation](https://docs.cekura.ai/documentation/key-concepts/metrics/pre-defined-metrics).
 
 ## 🔧 Usage
 
