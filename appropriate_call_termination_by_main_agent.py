@@ -11,8 +11,6 @@ Copyright (c) 2025
 Licensed under the Apache License - see LICENSE file for details
 """
 
-from typing import str
-
 def get_appropriate_call_termination_by_main_agent_prompt(transcript: str, call_end_reason: str):
     return f"""You are an AI quality assurance analyst tasked with evaluating customer service call transcripts. Your primary objective is to determine if a Main Agent terminated a call prematurely without valid reason. This analysis is crucial for maintaining high standards in customer service interactions.
 

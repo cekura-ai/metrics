@@ -10,8 +10,6 @@ Copyright (c) 2025
 Licensed under the Apache License - see LICENSE file for details
 """
 
-from typing import str
-
 def get_relevancy_score_prompt(transcript: str):
     return f"""You are an expert AI system designed to evaluate the quality of AI-assisted customer service conversations. Your task is to analyze whether the Main agent responses are relevant given the transcript of the conversation.
 

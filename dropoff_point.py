@@ -11,8 +11,6 @@ Copyright (c) 2025
 Licensed under the Apache License - see LICENSE file for details
 """
 
-from typing import str
-
 def get_dropoff_point_prompt(transcript: str, nodes: str):
     return f"""
     You are an AI assistant specializing in analyzing conversation flows. Your task is to examine a conversation transcript and a description of conversation nodes to determine the last node where the conversation ended or was dropped off.
