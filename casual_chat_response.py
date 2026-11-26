@@ -9,8 +9,6 @@ Copyright (c) 2025
 Licensed under the Apache License - see LICENSE file for details
 """
 
-from typing import str
-
 def get_casual_chat_response_score_prompt(transcript: str):
     return f"""
     You are an advanced AI evaluator tasked with assessing . Your evaluation focuses on whether the AI responds in a human-like, friendly, and easily understandable way.

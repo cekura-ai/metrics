@@ -12,8 +12,6 @@ Copyright (c) 2025
 Licensed under the Apache License - see LICENSE file for details
 """
 
-from typing import str
-
 def get_hallucination_prompt(transcript: str):
     prompt = f"""You are an advanced fact-checking system designed to compare a given conversation transcript against contextual information. Your task is to determine whether the transcript agrees with the provided knowledge base (context) and provide a detailed analysis followed by a concise explanation for your verdict.
 

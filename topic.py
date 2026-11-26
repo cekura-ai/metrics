@@ -11,7 +11,7 @@ Copyright (c) 2025
 Licensed under the Apache License - see LICENSE file for details
 """
 
-from typing import Dict, str
+from typing import Dict
 
 def get_categorize_topic_prompt(topic_dict: Dict, transcript: str):
     return f"""

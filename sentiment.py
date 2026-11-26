@@ -10,8 +10,6 @@ Copyright (c) 2025
 Licensed under the Apache License - see LICENSE file for details
 """
 
-from typing import str
-
 
 def get_sentiment_from_audio_prompt(agent_description: str):
     return """You are an advanced AI tasked with analyzing the sentiment of a testing agent in an audio conversation. Your goal is to determine whether the testing agent's sentiment is positive, negative, or neutral.
